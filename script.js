@@ -29,7 +29,7 @@ kontakLink.addEventListener("click", function (){
 });
 
 
-const contact = document.querySelectorAll('.contact-icon);
+const contact = document.querySelectorAll('.contact-icon');
 for ( let i = 0; i < contact.length; i++){
 
     contact[i].addEventListener("mouseenter", function(e){
