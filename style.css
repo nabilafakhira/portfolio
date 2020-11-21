@@ -518,13 +518,6 @@ ul.content{
   margin: 25px 0;
   padding: 0;
 }
-@media (max-width: 600px){
-  .contact .content li h4{
-    font-size: 12px;
-  }
-}
-
-
 
 /*footer*/
 footer{
