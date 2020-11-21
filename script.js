@@ -29,13 +29,13 @@ kontakLink.addEventListener("click", function (){
 });
 
 
-const card = document.querySelectorAll('.card');
-for ( let i = 0; i < card.length; i++){
+const contact = document.querySelectorAll('.contact-icon);
+for ( let i = 0; i < contact.length; i++){
 
-    card[i].addEventListener("mouseenter", function(e){
+    contact[i].addEventListener("mouseenter", function(e){
         e.currentTarget.style.transform = "scale(1.1)";
     })
-    card[i].addEventListener("mouseleave", function(e){
+    contact[i].addEventListener("mouseleave", function(e){
         e.currentTarget.style.transform = "scale(1)";
     })
 }
