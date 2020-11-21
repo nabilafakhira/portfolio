@@ -498,25 +498,29 @@ ul.content{
   background-color: white;
   color: black;
 }
+.contact ul.content{
+  width:100%;
+  margin:0;
+  padding:0;
+}
 .contact .content li{
-  margin: 0 30px 30px 30px;
-  flex-basis: 40%;
-  text-align: center;
+  margin: 30px;
+  flex-basis: 20%;
   padding: 0;
 }
 .contact-icon{
-  width: 100px;
+  width: 80px;
   margin: 0;
   padding: 0;
 }
 .contact .content li h4{
-  font-size: 25px;
+  font-size: 15px;
   margin: 25px 0;
   padding: 0;
 }
 @media (max-width: 600px){
   .contact .content li h4{
-    font-size: 20px;
+    font-size: 12px;
   }
 }
 
